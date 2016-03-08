@@ -1,6 +1,6 @@
 # 3D-asset-proto
 
-Run the ruby webserver to start the server:
+Run the ruby webserver to view the models:
 
 ```
 $ ruby webrick.rb 
