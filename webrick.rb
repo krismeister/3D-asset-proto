@@ -2,7 +2,7 @@ require 'webrick'
   include WEBrick
   s = HTTPServer.new(
    :Port => 4000,
-   :DocumentRoot => Dir::pwd + '/proto'
+   :DocumentRoot => Dir::pwd
   )
   trap("INT"){ s.shutdown }
   s.start
